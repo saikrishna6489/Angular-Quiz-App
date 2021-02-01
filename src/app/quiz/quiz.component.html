@@ -1,0 +1,9 @@
+<div>
+    {{ communication.selectedQuiz }}
+</div>
+<div>
+    <p>Question-{{ communication.questionId }}: {{ questionData[communication.questionId-1].name }}</p>
+    <ng-container *ngFor="let option of questionData[communication.questionId-1].options">
+        <button class="" (click)="submitAnswer(option.name)">{{ option.name }}</button>
+    </ng-container>
+</div>

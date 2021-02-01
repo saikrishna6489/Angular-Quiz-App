@@ -1,0 +1,14 @@
+<div>
+    <p>result:<b>{{ score }}/{{ questionData.length }}</b></p>
+</div>
+<div>
+    <div *ngFor="let quest of questionData">
+        <p>{{ quest.name }}</p>
+        <div *ngFor="let option of quest.options">
+            <p [style.color]="displayAnswer(quest.id, option.name)==true ? 'green' : 'black'">{{ option.name }}
+                <span *ngIf="validateAnswer(quest.id, option.name)" style="color:green"> <i class="fa fa-check-circle" aria-hidden="true"></i> </span>
+                <span *ngIf="validateAnswer2(quest.id, option.name)" style="color:red"> <i class="fa fa-times-circle" aria-hidden="true"></i> </span>
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,945 @@
+{
+    "questions":{
+        "corejava":[
+            {
+                "id": 1,
+                "name": "What is the size of long variable?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "8 bit"
+                    },
+                    {
+                        "id": 2,
+                        "name": "16 bit"
+                    },
+                    {
+                        "id": 3,
+                        "name": "32 bit"
+                    },
+                    {
+                        "id": 4,
+                        "name": "64 bit"
+                    }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "What is the default value of char variable?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "'\u0000'"
+                    },
+                    {
+                        "id": 2,
+                        "name": "0"
+                    },
+                    {
+                        "id": 3,
+                        "name": "null"
+                    },
+                    {
+                        "id": 4,
+                        "name": "not defined"
+                    }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "What is polymorphism?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Polymorphism is a technique to define different objects of same type."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Polymorphism is the ability of an object to take on many forms."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Polymorphism is a technique to define different methods of same type."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Method Overloading is an example of",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Static Binding."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Dynamic Binding."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "Which is the way in which a thread can enter the waiting state?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Invoke its sleep() method."
+                    },
+                    {
+                        "id": 2,
+                        "name": "invoke object's wait method."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Invoke its suspend() method."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "What is the size of long variable?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "8 bit"
+                    },
+                    {
+                        "id": 2,
+                        "name": "16 bit"
+                    },
+                    {
+                        "id": 3,
+                        "name": "32 bit"
+                    },
+                    {
+                        "id": 4,
+                        "name": "64 bit"
+                    }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "What is the default value of char variable?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "'\u0000'"
+                    },
+                    {
+                        "id": 2,
+                        "name": "0"
+                    },
+                    {
+                        "id": 3,
+                        "name": "null"
+                    },
+                    {
+                        "id": 4,
+                        "name": "not defined"
+                    }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "What is polymorphism?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Polymorphism is a technique to define different objects of same type."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Polymorphism is the ability of an object to take on many forms."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Polymorphism is a technique to define different methods of same type."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Method Overloading is an example of",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Static Binding."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Dynamic Binding."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Which is the way in which a thread can enter the waiting state?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Invoke its sleep() method."
+                    },
+                    {
+                        "id": 2,
+                        "name": "invoke object's wait method."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Invoke its suspend() method."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+            }
+        ],
+        "spring":[
+            {
+                "id": 1,
+                "name": "What AOP stands for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Aspect Oriented Programming"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Any Object Programming"
+                    },
+                    {
+                        "id": 3,
+                        "name": " Asset Oriented Programming"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Asset Oriented Protocol"
+                    }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "What is default scope of bean in Spring framework?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "singleton"
+                    },
+                    {
+                        "id": 2,
+                        "name": "prototype"
+                    },
+                    {
+                        "id": 3,
+                        "name": "request"
+                    },
+                    {
+                        "id": 4,
+                        "name": "session"
+                    }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "What are the different points where weaving can be applied?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Compile time, load time"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Compile time, run time"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Run time"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Compile time, load Time, Run time"
+                    }
+                ]
+              },
+              {
+                "id": 4,
+                "name": " If a bean is scoped to HTTP session, scope is",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "global-session"
+                    },
+                    {
+                        "id": 2,
+                        "name": "session"
+                    },
+                    {
+                        "id": 3,
+                        "name": "prototype"
+                    },
+                    {
+                        "id": 4,
+                        "name": "request"
+                    }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "What is ContextRefreshedEvent event?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "This event is published when the Servlet Context is either initialized or refreshed."
+                    },
+                    {
+                        "id": 2,
+                        "name": "This event is published when the HTTP Request is received."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This event is published when the HTTP Response is returned."
+                    },
+                    {
+                        "id": 4,
+                        "name": "This event is published when the ApplicationContext is either initialized or refreshed."
+                    }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "What AOP stands for?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Aspect Oriented Programming"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Any Object Programming"
+                    },
+                    {
+                        "id": 3,
+                        "name": " Asset Oriented Programming"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Asset Oriented Protocol"
+                    }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "What is default scope of bean in Spring framework?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "singleton"
+                    },
+                    {
+                        "id": 2,
+                        "name": "prototype"
+                    },
+                    {
+                        "id": 3,
+                        "name": "request"
+                    },
+                    {
+                        "id": 4,
+                        "name": "session"
+                    }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "What are the different points where weaving can be applied?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Compile time, load time"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Compile time, run time"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Run time"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Compile time, load Time, Run time"
+                    }
+                ]
+              },
+              {
+                "id": 9,
+                "name": " If a bean is scoped to HTTP session, scope is",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "global-session"
+                    },
+                    {
+                        "id": 2,
+                        "name": "session"
+                    },
+                    {
+                        "id": 3,
+                        "name": "prototype"
+                    },
+                    {
+                        "id": 4,
+                        "name": "request"
+                    }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "What is ContextRefreshedEvent event?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "This event is published when the Servlet Context is either initialized or refreshed."
+                    },
+                    {
+                        "id": 2,
+                        "name": "This event is published when the HTTP Request is received."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This event is published when the HTTP Response is returned."
+                    },
+                    {
+                        "id": 4,
+                        "name": "This event is published when the ApplicationContext is either initialized or refreshed."
+                    }
+                ]
+              }
+        ],
+        "javascript":[
+            {
+                "id": 1,
+                "name": "Which of the following is correct about features of JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "JavaScript is is complementary to and integrated with HTML."
+                    },
+                    {
+                        "id": 2,
+                        "name": "JavaScript is open and cross-platform."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "How can you get the total number of arguments passed to a function?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Using args.length property"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Using arguments.length property"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Which of the following type of variable takes precedence over other if names are same?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "global variable"
+                    },
+                    {
+                        "id": 2,
+                        "name": "local variable"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Which of the following is correct about features of JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "JavaScript is is complementary to and integrated with HTML."
+                    },
+                    {
+                        "id": 2,
+                        "name": "JavaScript is open and cross-platform."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "How can you get the total number of arguments passed to a function?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Using args.length property"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Using arguments.length property"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Which of the following type of variable takes precedence over other if names are same?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "global variable"
+                    },
+                    {
+                        "id": 2,
+                        "name": "local variable"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Which of the following is correct about features of JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "JavaScript is is complementary to and integrated with HTML."
+                    },
+                    {
+                        "id": 2,
+                        "name": "JavaScript is open and cross-platform."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "How can you get the total number of arguments passed to a function?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Using args.length property"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Using arguments.length property"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Which of the following type of variable takes precedence over other if names are same?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "global variable"
+                    },
+                    {
+                        "id": 2,
+                        "name": "local variable"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "Which of the following is correct about features of JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "JavaScript is is complementary to and integrated with HTML."
+                    },
+                    {
+                        "id": 2,
+                        "name": "JavaScript is open and cross-platform."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              }
+        ],
+        "angular":[
+            {
+                "id": 1,
+                "name": "Which of the following is correct about Angular 2 Components?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Components help to build the applications into many modules."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This helps in better maintaining the application over a period of time."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 2,
+                "name": " Which of the following is true?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Angular 2 Services are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Angular 2 Templates are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Angular 2 Components are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Which of the following is correct about Import Array in Angular 2 Modules?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Import array can be used to import the functionality from other Angular JS modules."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Import array can be used to import the templates."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Which of the following is correct about Angular 2 Components?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Components help to build the applications into many modules."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This helps in better maintaining the application over a period of time."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 5,
+                "name": " Which of the following is true?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Angular 2 Services are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Angular 2 Templates are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Angular 2 Components are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Which of the following is correct about Import Array in Angular 2 Modules?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Import array can be used to import the functionality from other Angular JS modules."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Import array can be used to import the templates."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Which of the following is correct about Angular 2 Components?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Components help to build the applications into many modules."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This helps in better maintaining the application over a period of time."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+              },
+              {
+                "id": 8,
+                "name": " Which of the following is true?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Angular 2 Services are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Angular 2 Templates are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Angular 2 Components are used to define the views of an Angular JS application."
+                    },
+                    {
+                        "id": 4,
+                        "name": "None of the above."
+                    }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Which of the following is correct about Import Array in Angular 2 Modules?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Import array can be used to import the functionality from other Angular JS modules."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Import array can be used to import the templates."
+                    },
+                    {
+                        "id": 3,
+                        "name": "Both of the above."
+                    },
+                    {
+                        "id": 4,
+                        "name": " None of the above."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Which of the following is correct about Angular 2 Components?",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers."
+                    },
+                    {
+                        "id": 2,
+                        "name": "Components help to build the applications into many modules."
+                    },
+                    {
+                        "id": 3,
+                        "name": "This helps in better maintaining the application over a period of time."
+                    },
+                    {
+                        "id": 4,
+                        "name": "All of the above."
+                    }
+                ]
+            }
+        ]
+    },
+
+    "answers":{
+        "corejava":{
+            "1":"64 bit", 
+            "2":"'\u0000'", 
+            "3":"Polymorphism is the ability of an object to take on many forms.",
+            "4":"Static Binding.", 
+            "5":"All of the above.",
+            "6":"64 bit", 
+            "7":"'\u0000'", 
+            "8":"Polymorphism is the ability of an object to take on many forms.",
+            "9":"Static Binding.", 
+            "10":"All of the above."
+        },
+        "spring":{
+            "1":"Aspect Oriented Programming", 
+            "2":"singleton", 
+            "3":"Compile time, load Time, Run time",
+            "4":"session", 
+            "5":"This event is published when the ApplicationContext is either initialized or refreshed.",
+            "6":"Aspect Oriented Programming", 
+            "7":"singleton", 
+            "8":"Compile time, load Time, Run time",
+            "9":"session", 
+            "10":"This event is published when the ApplicationContext is either initialized or refreshed."
+        },
+        "javascript":{
+            "1":"Both of the above.", 
+            "2":"Using arguments.length property",
+            "3":"local variable",
+            "4":"Both of the above.", 
+            "5":"Using arguments.length property",
+            "6":"local variable",
+            "7":"Both of the above.", 
+            "8":"Using arguments.length property",
+            "9":"local variable",
+            "10":"Both of the above."
+        },
+        "angular":{
+            "1":"All of the above.", 
+            "2":"Angular 2 Templates are used to define the views of an Angular JS application.", 
+            "3":"Import array can be used to import the functionality from other Angular JS modules.",
+            "4":"All of the above.", 
+            "5":"Angular 2 Templates are used to define the views of an Angular JS application.", 
+            "6":"Import array can be used to import the functionality from other Angular JS modules.",
+            "7":"All of the above.", 
+            "8":"Angular 2 Templates are used to define the views of an Angular JS application.", 
+            "9":"Import array can be used to import the functionality from other Angular JS modules.",
+            "10":"All of the above."
+        }
+    }
+    
+    
+}
