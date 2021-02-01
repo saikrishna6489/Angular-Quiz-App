@@ -1,0 +1,33 @@
+.holder{
+    padding: 27px 40px 27px 40px;
+    background-color:  #aec6db;
+    border-radius: 37px;
+    margin: 22px 0px 0px 0px;
+}
+.title{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+.result{
+    text-align: center;
+}
+.score{
+    background-color: #75ca20;
+    padding: 14px;
+    font-size: 73px;
+    border-radius: 178px;
+}
+.yourresult{
+    margin: 38px 0px 13px 0px;
+}
+.iconi{
+    font-size: 27px;
+}
+.questionBox{
+    background-color: #d3cb88;
+    border-radius: 28px;
+    padding: 20px 21px 20px 21px;
+    margin-top: 15px;
+}

@@ -29,7 +29,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "name": "'\u0000'"
+                        "name": "'\\u0000'"
                     },
                     {
                         "id": 2,
@@ -139,7 +139,7 @@
                 "options": [
                     {
                         "id": 1,
-                        "name": "'\u0000'"
+                        "name": "'\\u0000'"
                     },
                     {
                         "id": 2,
@@ -893,12 +893,12 @@
     "answers":{
         "corejava":{
             "1":"64 bit", 
-            "2":"'\u0000'", 
+            "2":"'\\u0000'", 
             "3":"Polymorphism is the ability of an object to take on many forms.",
             "4":"Static Binding.", 
             "5":"All of the above.",
             "6":"64 bit", 
-            "7":"'\u0000'", 
+            "7":"'\\u0000'", 
             "8":"Polymorphism is the ability of an object to take on many forms.",
             "9":"Static Binding.", 
             "10":"All of the above."

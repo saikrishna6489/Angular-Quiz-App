@@ -14,6 +14,10 @@ export class HomeComponent implements OnInit {
   constructor(private communication:CommunicationService, private router: Router) { }
 
   ngOnInit(): void {
+    this.communication.answers={};
+    this.communication.questionData=[];
+    this.communication.questionId=1;
+    this.communication.selectedOptions={};
     this.communication.getQuestions().subscribe( 
       data=>{
         this.allQuestions = data;

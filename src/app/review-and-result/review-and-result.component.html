@@ -1,14 +1,28 @@
-<div>
-    <p>result:<b>{{ score }}/{{ questionData.length }}</b></p>
-</div>
-<div>
-    <div *ngFor="let quest of questionData">
-        <p>{{ quest.name }}</p>
-        <div *ngFor="let option of quest.options">
-            <p [style.color]="displayAnswer(quest.id, option.name)==true ? 'green' : 'black'">{{ option.name }}
-                <span *ngIf="validateAnswer(quest.id, option.name)" style="color:green"> <i class="fa fa-check-circle" aria-hidden="true"></i> </span>
-                <span *ngIf="validateAnswer2(quest.id, option.name)" style="color:red"> <i class="fa fa-times-circle" aria-hidden="true"></i> </span>
-            </p>
+<div class="container contain">
+    <div class="holder">
+        <div>
+            <h1 class="title">SIMPLILEARN</h1>
+            <h2 class="subtitle">Online Test Application</h2>
+        </div>
+        <div class="result">
+            <h1 class="yourresult">Your Result</h1>
+            <p><b class="score">{{ score }}/{{ questionData.length }}</b></p>
+        </div>
+        <div style="text-align:center">
+            <a routerLink="/home" class="btn btn-warning">Go To Home</a>
+        </div>
+        <div>
+            <div class="questionBox" *ngFor="let quest of questionData; let j=index">
+                <p><b>Question-({{ j+1 }}) </b>{{ quest.name }}</p>
+                <div *ngFor="let option of quest.options; let i=index">
+                    <p [style.color]="displayAnswer(quest.id, option.name)==true ? 'green' : 'black'"><b>{{ i+1 }}) </b>{{ option.name }}
+                        <span *ngIf="validateAnswer(quest.id, option.name)" style="color:green" class="iconi"> <i
+                                class="fa fa-check-circle" aria-hidden="true"></i> </span>
+                        <span *ngIf="validateAnswer2(quest.id, option.name)" style="color:red" class="iconi"> <i
+                                class="fa fa-times-circle" aria-hidden="true"></i> </span>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

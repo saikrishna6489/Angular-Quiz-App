@@ -1,0 +1,25 @@
+.holder{
+    padding: 27px 40px 27px 40px;
+    background-color: #aec6db;
+    border-radius: 37px;
+    margin: 22px 0px 0px 0px;
+}
+.title{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+.quizOption{
+    background-color: antiquewhite;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 29px;
+    text-align: center;
+    margin: 18px 0px 6px 0px;
+    cursor: pointer;
+}
+.quizOption:hover{
+    background-color: #70614e87;
+    margin-top: 13px;
+}

@@ -1,9 +1,21 @@
-<div>
-    {{ communication.selectedQuiz }}
-</div>
-<div>
-    <p>Question-{{ communication.questionId }}: {{ questionData[communication.questionId-1].name }}</p>
-    <ng-container *ngFor="let option of questionData[communication.questionId-1].options">
-        <button class="" (click)="submitAnswer(option.name)">{{ option.name }}</button>
-    </ng-container>
+<div class="container contain">
+    <div class="holder">
+        <p>
+            <span style="float: left;">SIMPLILEARN</span>
+            <span style="float: right;">Online Test Application</span>
+        </p>
+        <div>
+            <h1 class="title">{{ communication.selectedQuiz.toUpperCase() }}</h1>
+        </div>
+        <div>
+            <div class="question">
+                <p><b>Question-{{ communication.questionId }}:</b> {{ questionData[communication.questionId-1].name }}</p>
+            </div>
+            <div class="row options">
+            <ng-container *ngFor="let option of questionData[communication.questionId-1].options ; let i = index">
+                <div class="col-6"><div class="option" (click)="submitAnswer(option.name)"><b>{{i+1}})</b>  {{ option.name }}</div></div>
+            </ng-container>
+            </div>
+        </div>
+    </div>
 </div>

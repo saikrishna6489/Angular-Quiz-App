@@ -1,6 +1,14 @@
-<div>
-    <button (click)="selectQuiz('corejava')">CoreJava</button>
-    <button (click)="selectQuiz('spring')">Spring</button>
-    <button (click)="selectQuiz('javascript')">JavaScript</button>
-    <button (click)="selectQuiz('angular')">Angular</button>
+<div class="container contain">
+    <div class="holder">
+        <div>
+            <h1 class="title">SIMPLILEARN</h1>
+            <h2 class="subtitle">Online Test Application</h2>
+        </div>
+        <div class="row">
+            <div class="col-6"><div (click)="selectQuiz('corejava')" class="quizOption">CoreJava</div></div>
+            <div class="col-6"><div (click)="selectQuiz('spring')" class="quizOption">Spring</div></div>
+            <div class="col-6"><div (click)="selectQuiz('javascript')" class="quizOption">JavaScript</div></div>
+            <div class="col-6"><div (click)="selectQuiz('angular')" class="quizOption">Angular</div></div>
+        </div>
+    </div>
 </div>

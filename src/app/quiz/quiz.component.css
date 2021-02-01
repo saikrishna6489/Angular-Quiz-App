@@ -1,0 +1,28 @@
+.holder{
+    padding: 27px 40px 27px 40px;
+    background-color:  #aec6db;
+    border-radius: 37px;
+    margin: 22px 0px 0px 0px;
+}
+.title{
+    text-align: center;
+}
+.question{
+    background-color: #918ae3ad;
+    padding: 15px 20px 1px 20px;
+    font-size: 21px;
+    border-radius: 16px;
+    margin: 30px 0px 10px 0px;
+}
+.option{
+    background-color: #8db88b;
+    padding: 10px 6px 7px 6px;
+    margin: 6px 0px 9px 0px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.option:hover{
+    margin-top: 4px;
+    background-color: #c4ccff;
+}
